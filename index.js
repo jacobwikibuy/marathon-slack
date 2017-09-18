@@ -68,6 +68,6 @@ app.get('/health', function (req, res) {
 });
 
 // Start Express.js server
-const server = app.listen(apiOptions.port, apiOptions.ipAddress, function () {
+const server = app.listen(apiOptions.port, function () {
     console.log("Express server listening on port " + server.address().port + " on " + server.address().address);
 });
