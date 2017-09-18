@@ -54,7 +54,7 @@ marathonSlackBridge.start();
 // Define API options
 let apiOptions = {
     ipAddress: process.env.HOST || "0.0.0.0",
-    port: process.env.PORT || 3000
+    port: process.env.LISTEN_PORT || 3000
 };
 
 // Define health check route
